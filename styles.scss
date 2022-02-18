@@ -98,6 +98,9 @@ a {
 	flex-direction: column;
 	height: 100vh;
 	padding: 2.4rem 0;
+	// h5 {
+	// 	// color: hsl(0, 0%, 75%);
+	// }
 }
 
 .link {
@@ -107,6 +110,28 @@ a {
 	background: #333;
 	border-radius: 0.6rem;
 	text-align: center;
+	font-size: 1.33rem;
+}
+
+#github-icon {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	// padding: 1rem;
+	&:hover {
+		color: #f9f9f9;
+		// left: 2rem;
+	}
+	// &:active {
+	// 	bottom: 2rem;
+	// }
+}
+.creators {
+	position: absolute;
+	bottom: 1.6rem;
+	a {
+		color: #555;
+	}
 }
 
 small {
@@ -115,6 +140,7 @@ small {
 }
 
 #index {
+	user-select: none;
 	position: fixed;
 	opacity: 0.03;
 	font-size: 30rem;

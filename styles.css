@@ -124,6 +124,26 @@ a:hover {
   background: #333;
   border-radius: 0.6rem;
   text-align: center;
+  font-size: 1.33rem;
+}
+
+#github-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+#github-icon:hover {
+  color: #f9f9f9;
+}
+
+.creators {
+  position: absolute;
+  bottom: 1.6rem;
+}
+
+.creators a {
+  color: #555;
 }
 
 small {
@@ -132,6 +152,10 @@ small {
 }
 
 #index {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: fixed;
   opacity: 0.03;
   font-size: 30rem;
