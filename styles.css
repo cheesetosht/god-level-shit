@@ -126,8 +126,15 @@ a:hover {
   text-align: center;
 }
 
+small {
+  font-style: italic;
+  color: #bbbbbb;
+}
+
 #index {
-  position: absolute;
+  position: fixed;
+  opacity: 0.03;
+  font-size: 30rem;
 }
 
 @media screen and (max-width: 1000px) {
