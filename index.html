@@ -10,6 +10,7 @@
 
     <title>God Level Sh*t | For god-level developers</title>
     <meta name="og:title" content="God Level Sh*t | For god-level developers">
+    <meta name="og:image" content="/peter.png">
     <meta name="og:description" content="Curated links for & by God-level Developers">
     <meta name="description" content="Curated links for & by God-level Developers">
     <script type="text/javascript">
@@ -27,7 +28,7 @@
         // but it's recommended you remove it for production
         mixpanel.init('9cb0cc88edfc864f27805a005818a481', { debug: false });
 
-        // mixpanel.track('Link Opened');
+        mixpanel.track('visited');
         mixpanel.track_links("#link", "link opened",
             {
                 id: 0
