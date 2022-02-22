@@ -16,6 +16,10 @@ var data = {
       title: "Phishing with Unicode Domains",
       link: "https://www.xudongz.com/blog/2017/idn-phishing/",
     },
+    {
+      title: "Safari, Caching and Third-Party Resources",
+      link: "https://andydavies.me/blog/2018/09/06/safari-caching-and-3rd-party-resources/",
+    },
   ],
 };
 
