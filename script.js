@@ -20,6 +20,10 @@ var data = {
       title: "Safari, Caching and Third-Party Resources",
       link: "https://andydavies.me/blog/2018/09/06/safari-caching-and-3rd-party-resources/",
     },
+    {
+      title:"Rebuilding Babel: The Tokenizer",
+      link:"https://www.nan.fyi/tokenizer"
+    }
   ],
 };
 
